@@ -1,0 +1,241 @@
+---
+type: topic
+title: "Linux常用命令大全"
+date: 2026-08-05
+category: Python开发工具
+source_url: https://pythondjango.cn/python/tools/1-linux-commands/
+author: 大江狗
+tags:
+  - Python开发工具
+  - status/done
+  - type/topic
+publish: true
+---
+
+# Linux常用命令大全
+## 目录
+1. [文件和目录操作](#%E6%96%87%E4%BB%B6%E5%92%8C%E7%9B%AE%E5%BD%95%E6%93%8D%E4%BD%9C)
+   1. [切换工作目录](#%E5%88%87%E6%8D%A2%E5%B7%A5%E4%BD%9C%E7%9B%AE%E5%BD%95)
+   2. [查看文件及目录](#%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E5%8F%8A%E7%9B%AE%E5%BD%95)
+   3. [文件及目录的创建与删除](#%E6%96%87%E4%BB%B6%E5%8F%8A%E7%9B%AE%E5%BD%95%E7%9A%84%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%88%A0%E9%99%A4)
+   4. [文件与目录的移动及复制](#%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%9A%84%E7%A7%BB%E5%8A%A8%E5%8F%8A%E5%A4%8D%E5%88%B6)
+   5. [文件查找与统计](#%E6%96%87%E4%BB%B6%E6%9F%A5%E6%89%BE%E4%B8%8E%E7%BB%9F%E8%AE%A1)
+2. [用户、群组和权限](#%E7%94%A8%E6%88%B7%E7%BE%A4%E7%BB%84%E5%92%8C%E6%9D%83%E9%99%90)
+   1. [群组的创建与删除](#%E7%BE%A4%E7%BB%84%E7%9A%84%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%88%A0%E9%99%A4)
+   2. [用户的管理](#%E7%94%A8%E6%88%B7%E7%9A%84%E7%AE%A1%E7%90%86)
+   3. [权限的分配](#%E6%9D%83%E9%99%90%E7%9A%84%E5%88%86%E9%85%8D)
+3. [系统管理命令](#%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4)
+   1. [基础命令](#%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4)
+   2. [性能监控](#%E6%80%A7%E8%83%BD%E7%9B%91%E6%8E%A7)
+   3. [进程管理](#%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86)
+   4. [开机、关机与注销](#%E5%BC%80%E6%9C%BA%E5%85%B3%E6%9C%BA%E4%B8%8E%E6%B3%A8%E9%94%80)
+4. [示例：Ubuntu系统更新Python版本](#%E7%A4%BA%E4%BE%8Bubuntu%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0python%E7%89%88%E6%9C%AC)
+5. [Vim命令](#vim%E5%91%BD%E4%BB%A4)
+6. [参考资料](#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99)
+---
+实际工作中Python Web项目基本上都是部署在Linux系统上的(比如Ubuntu, Centos)，因此熟悉掌握Linux命令对于Python开发和运维工作者是最基本的要求。本文根据网络内容整理了Python Web开发项目经常用到的Linux命令。
+## 文件和目录操作
+### 切换工作目录
+```
+cd /home 进入/home目录
+cd .. 返回上一级目录
+cd ../.. 返回上两级目录
+cd ~user1 进入user1的主目录
+cd - 返回上次所在的目录
+pwd 显示当前工作目录
+```
+### 查看文件及目录
+```
+ls 查看目录中的文件
+ls -F 查看目录中的文件
+ls -l 显示文件和目录的详细资料
+ls -a 显示隐藏文件
+ls *［0-9］* 显示包含数字的文件名和目录名
+cat 查看文件内容
+more、less  分页显示文本文件内容
+head、tail   显示文件头、尾内容
+basename 显示文件名或目录名
+dirname 显示文件或目录路径。
+tree 显示文件和目录由根目录开始的树形结构
+```
+### 文件及目录的创建与删除
+```
+touch 创建空文件
+echo 创建带有内容的文件
+mkdir dir1 创建dir1目录
+mkdir dir1 dir2 同时创建两个目录
+mkdir -p /tmp/dir1/dir2 逐级创建多个目录
+rm -f file1 删除file1文件，-f强制删除
+rmdir dir1 删除dir1空目录
+rm -rf dir1 强制删除dir1目录及其子目录及文件，-r表示递归删除
+```
+### 文件与目录的移动及复制
+```
+mv dir1 new_dir 重命名/移动一个目录
+cp file1 file2 复制一个文件
+cp dir/* . 复制一个目录下的所有文件到当前工作目录
+cp -a /tmp/dir1. 复制一个目录到当前工作目录, -a表示所有
+ln -s file1 lnk1 创建一个指向文件或目录的软链接
+ln file1 lnk1 创建一个指向文件或目录的物理链接
+```
+### 文件查找与统计
+```
+# 在/下搜索名为file1的文件和目录
+find / -name file1 
+# 在/下搜索属于用户user1的文件和目录
+find / -user user1 
+# 在目录/home/user1中搜索带有.bin结尾的文件
+find /home/user1 -name \*.bin 
+# 搜索在过去100天内未被使用过的执行文件
+find /usr/bin -type f -atime +100 
+# 搜索在10天内被创建或者修改过的文件
+find /usr/bin -type f -mtime -10 
+# 搜索以.rpm结尾的文件并定义其权限
+find / -name \*.rpm -exec chmod 755 ‘{}’ \; 
+# 在所有txt文件中查找包含有python的文件。-l表示以列表显示
+grep -l python *.txt  
+# 查找etc及子目录包含python的文件，-i表示不区分大小写，-R表示递归
+grep -iR python /etc/* 
+# 寻找以.ps结尾的文件 
+locate \*.ps 
+# 显示一个二进制文件、源码或man的位置,比如bash命令
+whereis bash 
+# 显示一个二进制文件或可执行文件(比如bash)的完整路径
+which bash 
+# 统计text.txt中行数、字数、字符数
+wc test.txt
+```
+## 用户、群组和权限
+### 群组的创建与删除
+```
+groupadd group_name 创建一个新用户组
+groupdel group_name 删除一个用户组
+groupmod -n new_group old_group 重命名一个用户组
+newgrp group_name 登陆进一个新的群组以改变新创建文件的预设群组
+```
+### 用户的管理
+```
+useradd user1 创建一个新用户，可结合如下选项使用：
+    -u 指定用户的UID
+    -g 指定用户所属的群组
+    -d 指定用户的home目录
+    -c 指定用户的备注信息
+    -s 指定用户所用的shell
+# 修改用户属性
+usermod -c “FTP User” -g system -d /ftp/user1 -s /bin/nologin user1 
+# 删除一个用户
+userdel user1 
+# 密码管理
+passwd 修改口令
+passwd user1 修改一个用户的口令 （只允许root执行）
+change -E 2020-12-31 user1 设置用户口令的失效期限
+# 用户切换
+id 查看用户的uid,gid及归属的用户组。
+su 切换用户身份。
+visudo 编辑/etc/sudoers文件的专属命令。
+sudo 以另外一个用户身份（默认root用户）执行事先在sudoers文件允许的命令。
+```
+### 权限的分配
+主要有两个命令：`chmod`是用来设置文件夹和文件权限，`chown`是用来设置用户组。
+```
+# 显示权限
+ls -lh 
+# 增加目录的所有人（u）、群组（g）以及其他人（o）读、写和执行的权限
+# r, w, x分别代表读、写和执行
+chmod ugo+rwx directory1 
+# 删除群组（g）与其他人（o）对目录的读写执行权限，
+chmod go-rwx directory1 
+# 给文件aaa.sh可执行权限,+ 代表增加权限，-代表移除权限
+chmod +x aaa.sh
+# 给文件file1设置可读、可写和可执行的权限(r=4,w=2,x=1)
+chmod 777 file1
+# 改变一个文件的所有人属性
+chown user1 file1
+# 改变一个目录的所有人属性并同时改变改目录下所有文件的属性
+chown -R user1 directory1 
+# 改变文件的群组
+chgrp group1 file1 
+# 改变一个文件的所有人和群组属性
+chown user1:group1 file1
+```
+## 系统管理命令
+系统管理命令中最重要的是服务器性能监控命令和进程管理命令，尤其是监控CPU和当前负载信息的`uptime`, 监控内存使用情况的 `free`, 监控磁盘使用情况的 `df`, 以管理进程的`top`, `ps`和 `kill`命令。
+### 基础命令
+```
+who   显示在线登陆用户
+whoami   显示当前操作用户
+hostname   显示主机名
+uname   显示系统信息
+clear   清屏
+alias   对命令重命名 如：alias showmeit="ps -aux" ，另外解除使用unaliax showmeit
+ifconfig 查看网络情况
+ping 测试网络连通
+```
+### 性能监控
+```
+chkconfig 管理Linux系统开机启动项
+uptime 获取CPU运行时间和查询Linux系统负载等信息
+free 监控内存及交换分区的使用
+sar 全面地获取系统的CPU、运行队列、磁盘 I/O、内存和网络等性能数据。
+df 查看磁盘使用情况 df -h 带有单位显示磁盘信息
+netstat 显示网络状态信息，netstat -t可查看tcp连接
+vmstat 虚拟内存统计
+mpstat 显示各个可用CPU的状态统计
+du 查看目录大小 du -h /home带有单位显示目录信息
+iostat 统计系统IO
+```
+### 进程管理
+```
+top 动态显示当前耗费资源最多进程信息
+  - P: CPU 占用率大小的顺序排列进程列表  
+  - M: 以内存占用率大小的顺序排列进程列表  
+ps 显示瞬间进程状态 
+ps -aux 全格式显示进程信息,BSD风格
+ps -ef 全格式显示进程信息,System V风格
+kill 杀死进程，可以先用ps 或 top命令查看进程的id，然后再用kill命令杀死进程。
+killall 通过进程名终止进程
+```
+### 开机、关机与注销
+```
+shutdown -h hours:minutes & 按预定时间关闭系统 
+shutdown -c 取消按预定时间关闭系统 
+shutdown -r now 重启
+reboot	重启
+poweroff 关闭电源。
+logout 注销。
+```
+## 示例：Ubuntu系统更新Python版本
+最后我们来展示下如何使用Linux命令更新Ubuntu系统上的Python版本。
+```
+# 安装 python 3.9
+sudo apt-get update
+sudo apt-get install python3.9
+# 建立软链接
+ls -l /usr/bin/ | grep python
+sudo rm /usr/bin/python
+sudo ln -s /usr/bin/python3.9 /usr/bin/python
+```
+## Vim命令
+```
+sudo vim file1
+# 默认进入普通模式，可以移动光标，删除文本等等
+# 连续两次dd删除当前行
+# 进入编辑模式：按”a”（append／追加）键或者”i”（insert／插入）
+# 模式切换：ESC 键回到普通模式
+# 退出保存: 按ESC键, :wq
+i —— 插入模式，这个模式让你你可以像记事本一样的输入文本，如果已经输入完了，按ESC返回Normal模式。
+x —— 删除当前光标所在处的字符
+:w —— 存盘
+:q —— 退出，你可以使用 :wq来同时进行这两个操作
+dd —— 剪切当前行
+p —— 粘贴
+hjkl —— 效果等同于←↓↑→，用于移动光标
+:help<command> —— 显示相关命令的帮助
+```
+## 参考资料
+* https://blog.csdn.net/yueyueniaolzp/article/details/81133122
+本文由大江狗根据网络内容整理，全文转载请注明来源。我是大江狗，一名Python Web开发与Django技术开发爱好者。您可以通过搜索【[CSDN大江狗](https://blog.csdn.net/weixin_42134789)】、【[知乎大江狗](https://www.zhihu.com/people/shi-yun-bo-53)】和搜索微信公众号【Python Web与Django开发】关注我！
+![Python Web与Django开发](../assets/assets/images/django.png)
+---
+[返回顶部](#top)
+Copyright © 2021-2022 Yunbo Shi.

@@ -23,3 +23,10 @@ publish: true
 - [[03_Knowledge/concepts/concept-local-human-ai-cocreation-kb|人类-AI 共创知识库]]
 - [[03_Knowledge/concepts/concept-python-quickstart|Python 入门与生态]]
 - [[03_Knowledge/concepts/concept-shell-appsfolder|shell:appsfolder 打开应用文件夹]]
+
+## Python / Django / 运维 实战教程
+> 以下来自知识库归档类型 python/django/运维 的公开子集（选择性发布，非整库）。
+
+- [[03_Knowledge/topics/pythondjango-cn-2026-08-05/索引|🐍 Python/Django 全栈实战教程合集（入口导航）]]
+- [[03_Knowledge/methods/method-amd-r5-5500u-laptop-optimization|💻 AMD R5-5500U 笔记本优化（运维向）]]
+- 子分类入口：Django 基础教程 · Django 进阶教程 · Django REST Framework · Python 开发工具（Linux/Docker/Git/Nginx）· Python 进阶实战（详见上方合集入口）
