@@ -153,5 +153,3 @@ git config --global pack.packSizeLimit "100m"
 ## 变更记录
 
 - 2026-08-05 初版入库：用户粘贴原文 → 按 WIKI-SCHEMA 入库规则编译 frontmatter（英文 `type/status/domain` 标签 + 中文 `category` 保留）、原文两列表格转 Markdown 表格、补 `关联/引用来源/变更记录` 三节、落 `03_Knowledge/methods/`（唯一归属）。去重预检（§8.1 Step 0）通过，无重叠。
-
-<!-- TEST-MARKER push-channel-probe -->
