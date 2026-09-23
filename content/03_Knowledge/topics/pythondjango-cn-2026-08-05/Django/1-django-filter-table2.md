@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "Django实战：使用django-filter和django-tables2打造美观的管理后台"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/applications/1-django-filter-table2/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:08:07
+updated: 2026-09-17T11:12:23
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/applications/1-django-filter-table2/
+author: 大江狗
 publish: true
 ---
 

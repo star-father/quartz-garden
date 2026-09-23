@@ -1,14 +1,17 @@
 ---
-type: topic
 title: "限流"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/rest-framework/10-throttling/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - type/topic
+sources: []
+created: 2026-08-05T11:07:42
+updated: 2026-09-17T11:12:23
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/rest-framework/10-throttling/
+author: 大江狗
 publish: true
 ---
 

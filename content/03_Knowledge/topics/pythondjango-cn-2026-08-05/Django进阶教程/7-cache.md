@@ -1,14 +1,17 @@
 ---
-type: topic
 title: "Django多种缓存配置方式"
-date: 2026-08-05
-category: Django进阶教程
-source_url: https://pythondjango.cn/django/advanced/7-cache/
-author: 大江狗
+type: topic
 tags:
   - Django进阶教程
   - status/done
   - type/topic
+sources: []
+created: 2026-08-05T11:09:46
+updated: 2026-09-17T11:12:25
+date: 2026-08-05
+category: Django进阶教程
+source_url: https://pythondjango.cn/django/advanced/7-cache/
+author: 大江狗
 publish: true
 ---
 

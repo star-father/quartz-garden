@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "Python协程asyncio模块的演变及高级用法"
-date: 2026-08-05
-category: Python进阶实战
-source_url: https://pythondjango.cn/python/advanced/4-python-asyncio-evolving/
-author: 大江狗
+type: topic
 tags:
   - Python进阶实战
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:09:27
+updated: 2026-09-17T11:12:25
+date: 2026-08-05
+category: Python进阶实战
+source_url: https://pythondjango.cn/python/advanced/4-python-asyncio-evolving/
+author: 大江狗
 publish: true
 ---
 

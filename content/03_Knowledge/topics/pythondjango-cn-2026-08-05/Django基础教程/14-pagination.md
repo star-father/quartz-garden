@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "Django项目中如何使用分页及通用模板"
-date: 2026-08-05
-category: Django基础教程
-source_url: https://pythondjango.cn/django/basics/14-pagination/
-author: 大江狗
+type: topic
 tags:
   - Django基础教程
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:09:05
+updated: 2026-09-17T11:12:24
+date: 2026-08-05
+category: Django基础教程
+source_url: https://pythondjango.cn/django/basics/14-pagination/
+author: 大江狗
 publish: true
 ---
 

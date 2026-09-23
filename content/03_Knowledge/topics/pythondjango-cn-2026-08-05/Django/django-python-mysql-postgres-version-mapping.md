@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "Django版本与Python, MySQL, mysqlclient和Postgres的版本关系对应图"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/2021/03/15/django-python-mysql-postgres-version-mapping/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:07:20
+updated: 2026-09-17T11:12:24
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/2021/03/15/django-python-mysql-postgres-version-mapping/
+author: 大江狗
 publish: true
 ---
 

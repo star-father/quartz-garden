@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "Django实战：使用通用类视图开发任务管理CRUD小应用"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/applications/2-django-CBV-CRUD-example/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:09:43
+updated: 2026-09-17T11:12:23
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/applications/2-django-CBV-CRUD-example/
+author: 大江狗
 publish: true
 ---
 

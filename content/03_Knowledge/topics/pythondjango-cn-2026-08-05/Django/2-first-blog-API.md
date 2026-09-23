@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "以博客为例使用DRF的序列化器和基于函数的视图开发API"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/rest-framework/2-first-blog-API/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:08:10
+updated: 2026-09-17T11:12:23
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/rest-framework/2-first-blog-API/
+author: 大江狗
 publish: true
 ---
 

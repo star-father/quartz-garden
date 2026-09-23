@@ -1,11 +1,15 @@
 ---
 title: Python爬虫工具测评：下一代请求库httpx和解析工具parsel
+type: topic
+tags:
+  - Python
+sources: []
+created: 2026-08-17T08:57:33
+updated: 2026-09-17T11:12:25
 date: 2026-08-17
 category: Python
 source_url: https://pythondjango.cn/python/2021/05/11/python-httpx-asyncio-parsel/
 author: 大江狗
-tags:
-  - Python
 publish: true
 ---
 

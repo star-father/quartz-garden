@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "Django实战：channels + websocket四步打造个在线聊天室(附图)"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/applications/5-django-websocket-chatbot/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:06:42
+updated: 2026-09-17T11:12:24
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/applications/5-django-websocket-chatbot/
+author: 大江狗
 publish: true
 ---
 

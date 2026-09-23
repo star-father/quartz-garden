@@ -1,14 +1,17 @@
 ---
-type: topic
 title: "认证详解与Token认证"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/rest-framework/6-authentication/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - type/topic
+sources: []
+created: 2026-08-05T11:09:10
+updated: 2026-09-17T11:12:24
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/rest-framework/6-authentication/
+author: 大江狗
 publish: true
 ---
 

@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "为什么要学习Django REST Framework (DRF), 什么是符合RESTful规范的API?"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/rest-framework/1-RESTfull-API-why-DRF/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:06:08
+updated: 2026-09-17T11:12:23
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/rest-framework/1-RESTfull-API-why-DRF/
+author: 大江狗
 publish: true
 ---
 

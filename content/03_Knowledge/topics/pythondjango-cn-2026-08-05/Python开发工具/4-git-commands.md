@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "Git命令大全"
-date: 2026-08-05
-category: Python开发工具
-source_url: https://pythondjango.cn/python/tools/4-git-commands/
-author: 大江狗
+type: topic
 tags:
   - Python开发工具
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:07:44
+updated: 2026-09-17T11:12:25
+date: 2026-08-05
+category: Python开发工具
+source_url: https://pythondjango.cn/python/tools/4-git-commands/
+author: 大江狗
 publish: true
 ---
 

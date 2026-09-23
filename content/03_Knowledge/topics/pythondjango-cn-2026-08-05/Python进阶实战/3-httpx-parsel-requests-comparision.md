@@ -1,14 +1,17 @@
 ---
-type: topic
 title: "Python爬虫下一代网络请求库httpx和parsel解析库测评"
-date: 2026-08-05
-category: Python进阶实战
-source_url: https://pythondjango.cn/python/advanced/3-httpx-parsel-requests-comparision/
-author: 大江狗
+type: topic
 tags:
   - Python进阶实战
   - status/done
   - type/topic
+sources: []
+created: 2026-08-05T11:06:44
+updated: 2026-09-17T11:12:25
+date: 2026-08-05
+category: Python进阶实战
+source_url: https://pythondjango.cn/python/advanced/3-httpx-parsel-requests-comparision/
+author: 大江狗
 publish: true
 ---
 

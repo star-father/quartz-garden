@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "Django的MVT设计模式"
-date: 2026-08-05
-category: Django基础教程
-source_url: https://pythondjango.cn/django/basics/3-MVT-model-view-template/
-author: 大江狗
+type: topic
 tags:
   - Django基础教程
   - status/done
   - domain/llm
   - type/topic
+sources: []
+created: 2026-08-05T11:08:13
+updated: 2026-09-17T11:12:24
+date: 2026-08-05
+category: Django基础教程
+source_url: https://pythondjango.cn/django/basics/3-MVT-model-view-template/
+author: 大江狗
 publish: true
 ---
 

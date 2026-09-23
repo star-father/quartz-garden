@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "自定义Django-admin管理命令"
-date: 2026-08-05
-category: Django进阶教程
-source_url: https://pythondjango.cn/django/advanced/11-django-admin-commands/
-author: 大江狗
+type: topic
 tags:
   - Django进阶教程
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:07:55
+updated: 2026-09-17T11:12:25
+date: 2026-08-05
+category: Django进阶教程
+source_url: https://pythondjango.cn/django/advanced/11-django-admin-commands/
+author: 大江狗
 publish: true
 ---
 

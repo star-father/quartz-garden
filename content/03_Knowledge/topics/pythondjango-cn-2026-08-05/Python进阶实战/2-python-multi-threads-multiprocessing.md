@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "一文看懂Python多进程与多线程编程"
-date: 2026-08-05
-category: Python进阶实战
-source_url: https://pythondjango.cn/python/advanced/2-python-multi-threads-multiprocessing/
-author: 大江狗
+type: topic
 tags:
   - Python进阶实战
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:07:46
+updated: 2026-09-17T11:12:25
+date: 2026-08-05
+category: Python进阶实战
+source_url: https://pythondjango.cn/python/advanced/2-python-multi-threads-multiprocessing/
+author: 大江狗
 publish: true
 ---
 

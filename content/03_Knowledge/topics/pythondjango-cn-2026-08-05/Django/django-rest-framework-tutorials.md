@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "Django REST Framework系列教程终于搬到本博客了"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/2021/03/17/django-rest-framework-tutorials/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:09:38
+updated: 2026-09-17T11:12:24
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/2021/03/17/django-rest-framework-tutorials/
+author: 大江狗
 publish: true
 ---
 

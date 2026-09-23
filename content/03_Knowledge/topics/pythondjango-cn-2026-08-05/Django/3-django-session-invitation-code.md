@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "Django实战：使用session实现用户免登录凭邀请码访问网页"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/applications/3-django-session-invitation-code/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:09:50
+updated: 2026-09-17T11:12:23
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/applications/3-django-session-invitation-code/
+author: 大江狗
 publish: true
 ---
 

@@ -1,11 +1,15 @@
 ---
 title: 手把手教你配置Django SimpleUI(详细多图)
+type: topic
+tags:
+  - Django
+sources: []
+created: 2026-08-17T08:59:02
+updated: 2026-09-17T11:12:24
 date: 2026-08-17
 category: Django
 source_url: https://pythondjango.cn/django/2021/05/13/django-simple-ui-configuration/
 author: 大江狗
-tags:
-  - Django
 publish: true
 ---
 

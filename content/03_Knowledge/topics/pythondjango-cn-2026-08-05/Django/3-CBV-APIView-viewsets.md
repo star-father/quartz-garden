@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "基于类的视图APIView, GenericAPIView和视图集(ViewSet)"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/rest-framework/3-CBV-APIView-viewsets/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:05:48
+updated: 2026-09-17T11:12:23
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/rest-framework/3-CBV-APIView-viewsets/
+author: 大江狗
 publish: true
 ---
 

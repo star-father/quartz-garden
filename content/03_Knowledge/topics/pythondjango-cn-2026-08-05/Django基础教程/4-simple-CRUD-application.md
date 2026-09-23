@@ -1,14 +1,17 @@
 ---
-type: topic
 title: "一个任务管理CRUD小应用"
-date: 2026-08-05
-category: Django基础教程
-source_url: https://pythondjango.cn/django/basics/4-simple-CRUD-application/
-author: 大江狗
+type: topic
 tags:
   - Django基础教程
   - status/done
   - type/topic
+sources: []
+created: 2026-08-05T11:07:53
+updated: 2026-09-17T11:12:24
+date: 2026-08-05
+category: Django基础教程
+source_url: https://pythondjango.cn/django/basics/4-simple-CRUD-application/
+author: 大江狗
 publish: true
 ---
 

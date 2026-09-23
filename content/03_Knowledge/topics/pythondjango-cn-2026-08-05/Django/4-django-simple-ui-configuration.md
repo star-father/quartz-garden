@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "手把手教你使用Django SimpleUI打造美丽后台"
-date: 2026-08-05
-category: Django
-source_url: https://pythondjango.cn/django/applications/4-django-simple-ui-configuration/
-author: 大江狗
+type: topic
 tags:
   - Django
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:06:33
+updated: 2026-09-17T11:12:24
+date: 2026-08-05
+category: Django
+source_url: https://pythondjango.cn/django/applications/4-django-simple-ui-configuration/
+author: 大江狗
 publish: true
 ---
 

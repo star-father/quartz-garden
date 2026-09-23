@@ -1,11 +1,6 @@
 ---
 title: AMD R5-5500U 轻薄本升级优化全方案
 type: method
-created: 2026-08-05
-updated: 2026-08-05
-status: done
-sources: [人工补充]
-category: 设备运维
 tags:
   - type/method
   - status/done
@@ -16,6 +11,12 @@ tags:
   - hyper-v
   - windows10
   - obsidian-optimization
+sources: [人工补充]
+created: 2026-08-05
+updated: 2026-08-05
+series: 方法手册
+order: 12
+category: 设备运维
 publish: true
 ---
 

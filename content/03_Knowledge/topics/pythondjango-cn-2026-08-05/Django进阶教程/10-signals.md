@@ -1,15 +1,18 @@
 ---
-type: topic
 title: "Django信号机制及示例"
-date: 2026-08-05
-category: Django进阶教程
-source_url: https://pythondjango.cn/django/advanced/10-signals/
-author: 大江狗
+type: topic
 tags:
   - Django进阶教程
   - status/done
   - domain/coding
   - type/topic
+sources: []
+created: 2026-08-05T11:09:36
+updated: 2026-09-17T11:12:25
+date: 2026-08-05
+category: Django进阶教程
+source_url: https://pythondjango.cn/django/advanced/10-signals/
+author: 大江狗
 publish: true
 ---
 
